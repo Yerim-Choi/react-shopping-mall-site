@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const multer = require('multer');
-const { product, Product } = require('../models/Product');
+const { Product } = require('../models/Product');
 
 //=================================
 //             Product
@@ -101,18 +101,30 @@ router.post('/products', (req, res) => {
 })
 
 
+//id=123123123,324234234,324234234  type=array
 router.get('/products_by_id', (req, res) => {
 
   let type = req.query.type
-  let productId = req.query.id
-  // ProductId에서 DB 에서 productId
+  let productIds = req.query.id
 
-  Product.find({_id: productId })
-    .populate('writer')
-    .exec((err, product) => {
-      if (err) return res.status(400).send(err)
-      return res.status(200).send({ success: true, product })
-    })
+  if (type === "array") {
+      //id=123123123,324234234,324234234 이거를 
+      //productIds = ['123123123', '324234234', '324234234'] 이런식으로 바꿔주기
+      let ids = req.query.id.split(',')
+      productIds = ids.map(item => {
+          return item
+      })
+
+  }
+
+  //productId를 이용해서 DB에서  productId와 같은 상품의 정보를 가져온다.
+
+  Product.find({ _id: { $in: productIds } })
+      .populate('writer')
+      .exec((err, product) => {
+          if (err) return res.status(400).send(err)
+          return res.status(200).send(product)
+      })
 
 })
 
