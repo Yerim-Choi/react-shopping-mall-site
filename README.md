@@ -1,18 +1,3 @@
-Hello, My Friends  
-Thank you for having interest in this repository ! 
+## 🐶 반려동물 용품 쇼핑몰 웹 사이트 프로젝트 입니다. 
 
-To use this application, 
-
-1. make dev.js file inside config folder 
-2. put mongoDB info into dev.js file 
-3. Type  " npm install " inside the root directory  ( Download Server Dependencies ) 
-4. Type " npm install " inside the client directory ( Download Front-end Dependencies )
-
-
-If you have problem, feel free to ask me ^^ 
-
-You can watch the tutorial for this app.
-
-https://www.youtube.com/channel/UCFyXA9x8lpL3EYWeYhj4C4Q?view_as=subscriber
-
-
+<img src="https://user-images.githubusercontent.com/67423172/106387566-ae896080-641d-11eb-8e76-3fc8d45af1b1.jpg"></img>
