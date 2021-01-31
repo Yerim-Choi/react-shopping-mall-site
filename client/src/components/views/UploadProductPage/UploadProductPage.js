@@ -6,13 +6,13 @@ import Axios from 'axios';
 const { TextArea } = Input;
 
 const Continets = [
-    { key: 1, value: "Africa"},
-    { key: 2, value: "Europe"},
-    { key: 3, value: "Asia"},
-    { key: 4, value: "Nouth America"},
-    { key: 5, value: "South America"},
-    { key: 6, value: "Australia"},
-    { key: 7, value: "Antarctica"},
+    { key: 1, value: "사료"},
+    { key: 2, value: "간식"},
+    { key: 3, value: "위생"},
+    { key: 4, value: "장난감"},
+    { key: 5, value: "하우스"},
+    { key: 6, value: "패션"},
+    { key: 7, value: "목줄"},
 ]
 
 
@@ -82,7 +82,7 @@ function UploadProductPage(props) {
     return (
         <div style={{ maxWidth:'700px', margin: '2rem auto'}}>
             <div style={{ textAlign: 'center', marginBottom: '2rem'}}>
-                <h2>여행 상품 업로드</h2>
+                <h2>펫 상품 업로드</h2>
             </div>
 
             <Form onSubmit={submitHandler}>

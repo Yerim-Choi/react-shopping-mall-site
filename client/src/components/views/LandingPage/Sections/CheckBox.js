@@ -36,10 +36,8 @@ function CheckBox(props) {
     return (
         <div>
             <Collapse defaultActiveKey={['0']} >
-                <Panel header="Continents" key="1">
-
+                <Panel header="Categories " key="1">
                     {rednerCheckboxLists()}
-
                 </Panel>
             </Collapse>
         </div>

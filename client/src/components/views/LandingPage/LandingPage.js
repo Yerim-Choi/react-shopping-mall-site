@@ -132,9 +132,9 @@ function LandingPage() {
     return (
         <div style= {{ width: '75%', margin: '3rem auto' }}>
             <div style= {{ textAlign: 'center' }}>
-                <h2>Let's Travel Anywhere <Icon type="rocket" /> </h2>
+                <h2>♥ Gifts for Pets ♥ </h2>
+                <br />
             </div>
-
             {/* Filter */}
 
             <Row gutter={[16, 16]}>
@@ -164,7 +164,7 @@ function LandingPage() {
             </Row>
 
             {PostSize >= Limit &&
-                <div style= {{ display: 'flex', justifyContent: 'center' }}>
+                <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <Button onClick={loadMoreHanlder}>더보기</Button>
                 </div>
             }

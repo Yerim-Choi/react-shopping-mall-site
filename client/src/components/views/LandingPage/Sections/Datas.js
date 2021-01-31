@@ -1,31 +1,31 @@
 const continents = [
     {
         "_id" : 1,
-        "name": "Africa"
+        "name": "사료"
     },
     {
         "_id" : 2,
-        "name": "Europe"
+        "name": "간식"
     },
     {
         "_id" : 3,
-        "name": "Asia"
+        "name": "위생"
     },
     {
         "_id" : 4,
-        "name": "North America"
+        "name": "장난감"
     },
     {
         "_id" : 5,
-        "name": "South America"
+        "name": "하우스"
     },
     {
         "_id" : 6,
-        "name": "Australia"
+        "name": "패션"
     },
     {
         "_id" : 7,
-        "name": "Antarctica"
+        "name": "목줄"
     },
 ]
 
@@ -37,18 +37,18 @@ const price = [
     },
     {
         "_id" : 1,
-        "name": "$0 to $299",
-        "array": [0, 299]
+        "name": "$10000 미만",
+        "array": [0, 9999]
     }, 
     {
         "_id" : 2,
-        "name": "$300 to $499",
-        "array": [300, 499]
+        "name": "$20000 미만",
+        "array": [10000, 19999]
     }, 
     {
         "_id" : 4,
-        "name": "$500 to $800",
-        "array": [500, 800]
+        "name": "$30000 이상",
+        "array": [30000, 10000000]
     }, 
 ]
 
