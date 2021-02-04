@@ -5,7 +5,7 @@
 ### 👋 Introduction
 <table>
     <tr>
-        <th width="11%">프로젝트 명 </th>
+        <th width="20%">프로젝트 명 </th>
         <th>Petso</th>
         <th>개발기간</th>
         <th>2021.01.26. ~ 2021.01.29.</th>
