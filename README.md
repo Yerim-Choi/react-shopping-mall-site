@@ -1,7 +1,6 @@
 ## 🐶 반려동물 용품 쇼핑몰 웹 사이트 프로젝트 입니다. 
 
-
-<img src="https://user-images.githubusercontent.com/67423172/177087543-17ef8202-ef65-45d0-9983-fc71e512de13.jpg"></img>
+<img src="https://user-images.githubusercontent.com/67423172/177091030-017f1056-1c2e-4063-9c31-198ceea7eecf.png"></img>
 
 ### 👋 Introduction
 <table>
